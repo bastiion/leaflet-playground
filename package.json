@@ -6,5 +6,25 @@
   "repository": "git@github.com:bastiion/leaflet-playground.git",
   "author": "bastiion <graviola@posteo.de>",
   "license": "GPLv3",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-pixi-overlay": "^1.8.1",
+    "lodash": "^4.17.20",
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.3",
+    "eslint-plugin-prefer-arrow": "^1.2.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
