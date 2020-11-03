@@ -1,0 +1,10 @@
+{
+  "name": "leaflet-playground",
+  "version": "0.0.1",
+  "description": "playground for leaflet based visualization",
+  "main": "index.js",
+  "repository": "git@github.com:bastiion/leaflet-playground.git",
+  "author": "bastiion <graviola@posteo.de>",
+  "license": "GPLv3",
+  "private": true
+}
