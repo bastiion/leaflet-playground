@@ -5,7 +5,18 @@
   <title>Leaflet Playground</title>
 </head>
 <body>
-<div id="map" style="height: 1000px"></div>
+<div>
+  <form>
+    <label for="server">Server:</label>
+    <input type="text" id="server" value="https://elastic.de4l.timmi.gra.one">
+    <label for="username">User:</label>
+    <input type="text" id="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+    <button id="loginBtn">login</button>
+  </form>
+</div>
+<div id="map" style="height: 100vh"></div>
 <script src="main.js"></script>
 </body>
 </html>
